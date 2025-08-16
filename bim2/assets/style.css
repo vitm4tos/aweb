@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bentham&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3A2517;
+}
+
+header {
+    background-color: #6F4E37;
+    color: #F5F5DC;
+    padding: 20px;
+    font-family: "Aboreto";
+    font-size: larger;
+    text-align: center;
+    position: relative;
+}
+
+.perfil-container {
+    position: relative;
+    height: 60px;
+}
+
+.perfil-container img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+.perfil-container h1 {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 60px;
+    margin-left: 100px;
+}
+
+nav {
+    background-color: #AF805E;
+    color: #F5F5DC;
+    padding: 10px; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav a {
+    color: #F5F5DC;
+    margin: 0 15px;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a i {
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #F5F5DC;
+}
+
+.hero {
+    background-color: #AF805E;
+    text-align: center;
+    font-family: "Aboreto";
+    padding: 50px 20px;
+    width: 1270px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 64px;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.hero h3, .hero p {
+    font-size: 36px;
+    text-align: left;
+}
+
+.hero h3 {
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+.hero p {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.hero figure {
+    width: 580px;
+    height: 430px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: absolute;
+    right: 40px;
+    top: 85px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-cta {
+    padding: 20px 70px;
+    margin-top: 15px;
+    background-color: #6F4E37;
+    color: #F5F5DC;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+}
+
+.hero-cta:hover {
+    background-color: #F5F5DC;
+    color: #6F4E37;
+}
+
+section {
+    padding: 40px 20px;
+    width: 1270px;
+    height: 500px;
+    margin: auto;
+    background: #AF805E;
+    margin-top: 20px;
+    border-radius: 10px;
+    clear: both;
+    position: relative;
+}
+
+section h2, section h3 {
+      color: #F5F5DC;
+      margin-bottom: 15px;
+}
+
+section p {
+    font-family: "Bentham", serif;
+    color: #F5F5DC;
+}
+
+#sobremim {
+    text-align: left;
+    position: relative;
+}
+
+#sobremim h2 {
+    color: #F5F5DC;
+    font-family: "Aboreto";
+    font-size: 48px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#sobremim figure {
+    float: left;
+    margin-right: 30px;
+    width: 440px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#sobremim figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#sobremim div {
+    overflow: hidden;
+    padding-top: 120px;
+}
+
+#sobremim div p {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+#curiosidades {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#curiosidades h2 {
+    font-family: "Aboreto", serif;
+    color: #F5F5DC;
+    margin-bottom: 48px;
+}
+
+#curiosidades article {
+    text-align: center;
+    overflow: hidden; 
+}
+
+#curiosidades figure {
+    display: inline-block;
+    text-align: center;
+    margin: 0 25px;
+    width: 200px;
+    vertical-align: top;
+}
+
+#curiosidades img {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+#curiosidades p {
+    font-family: "Bentham", serif;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #F5F5DC;
+}
+
+.causos {
+    background-color: #6F4E37;
+    color: #F5F5DC;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.causos h3 {
+    font-family: "Aboreto", serif;
+    margin-bottom: 15px;
+}
+
+.causos p {
+    font-family: "Bentham";
+}
+
+
+#portfolio {
+    text-align: center;
+    height: 650px;
+}
+
+#portfolio h2 {
+    color: #F5F5DC;
+    font-family: "Aboreto";
+    font-size: 48px;
+    text-align: center;
+}
+
+
+#portfolio img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px; 
+}
+
+#portfolio figcaption, #portfolio p {
+    font-family: "Bentham", serif;
+    color: #F5F5DC;
+    text-align: center; 
+    margin-top: 5px; 
+}
+
+#portfolio figure {
+    display: inline-block;
+    width: 40%;
+    margin: 1.5%;
+    vertical-align: top;
+    text-align: center; 
+}
+
+#rotina {
+    text-align: center;
+}
+
+#rotina h2 {
+    color: #F5F5DC;
+    font-family: "Aboreto";
+    font-size: 48px;
+    text-align: center;
+}
+
+table {
+    width: 90%; /* Ajuste a largura, se necessário, mas 90% parece bom */
+    border-collapse: separate; 
+    border-spacing: 0;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: "Bentham";
+    margin-top: 40px;
+}
+
+th, td {
+    padding: 20px; /* Aumenta o espaçamento interno das células para deixá-las mais altas */
+    text-align: center;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte para preencher melhor as células */
+}
+
+th {
+    background-color: #6F4E37; 
+    color: #F5F5DC;            
+}
+
+td {
+    background-color: #F5F5DC; 
+    color: #6F4E37;            
+}
+
+.footer-principal {
+    background-color: #AF805E;
+    color: #F5F5DC;
+    font-family: "Cormorant Garamond";
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.footer-principal a {
+    color: #F5F5DC;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.footer-principal a:hover {
+    text-decoration: underline;
+    color: #F5F5DC;
+}
+
+.footer-dois {
+    background-color: #6F4E37;
+    color: #F5F5DC;
+    font-family: "Cormorant Garamond";
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
